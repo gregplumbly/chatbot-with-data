@@ -10,7 +10,7 @@ export default function Home() {
     {
       role: "assistant",
       content:
-        "Hello! Ask me questions about Creative Care",
+        "Hello! Ask me questions about Huge",
     },
   ]);
   const lastMessageRef = useRef<HTMLDivElement | null>(null);
@@ -63,7 +63,7 @@ export default function Home() {
     <main className="h-screen bg-white p-6 flex flex-col">
       <div className="flex flex-col gap-8 w-full items-center flex-grow max-h-full">
         <h1 className=" text-4xl text-transparent font-extralight bg-clip-text bg-gradient-to-r from-violet-800 to-fuchsia-500">
-          Creative Care chat
+          Huge chat
         </h1>
         <form
           className="rounded-2xl border-purple-700 border-opacity-5  border lg:w-3/4 flex-grow flex flex-col bg-[url('/images/bg.png')] bg-cover max-h-full overflow-clip"
